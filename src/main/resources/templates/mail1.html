@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <style type="text/css">
+
+        .body{
+            position: absolute;
+            background-color: lightgrey;
+
+        }
+
+        .img{
+               width: 300px;
+               height: 300px;
+               position: relative;
+               left: 80%;
+        }
+
+    </style>
+</head>
+<body class="body">
+
+        <h1 style="align:center;"> This is first email that we implemented </h1>
+
+        <img class ="img" src="https://imagazine.pl/wp-content/uploads/2015/02/mailunr-00.png" alt="no image sry m8">
+
+
+        <span> sent to <p th:text ="${mail}"></p> </span>
+
+
+</body>
+</html>
